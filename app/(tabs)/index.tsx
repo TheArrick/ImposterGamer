@@ -10,8 +10,7 @@ export default function WelcomeScreen() {
     };
 
     const handleRegister = () => {
-        // router.push('/register');
-        console.log('Ir a Registro');
+        router.push('/config');
     };
 
     return (
